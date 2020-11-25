@@ -1,20 +1,20 @@
-
-==========
+JavaScript基础
+===============
 1. 一种真正的编程语言，可以在网页上实现复杂的功能交互
 2. 解释型语言（不需要预先编译）
 3. 运行在客户端（跑在浏览器上的）
 4. 面向对象语言
 
-LiveScript->>JavaScript蹭Java热度
+原名：LiveScript->>JavaScript蹭Java热度
 
 三种方式添加JavaScript
 ---------------
-* 内部的JavaScript 
+1. 内部的JavaScript 
   <script>
   </script>
-* 外部的JavaScript
+2. 外部的JavaScript
   <script src = "script.js"> </script>
-* 内联JavaSript(**X**)不推荐
+3. 内联JavaSript(**X**)不推荐
   <button onclick = "createPrargraph()">
   Click me
   </button>
@@ -23,15 +23,15 @@ LiveScript->>JavaScript蹭Java热度
 ----------------------
 1. 所有数字都使用浮点数类型，double双精度
 2. alert();
-
+```
 <script>
 
 </script>
-
+````
 
 3. console.log，来显示
 
-···JavaScript
+```JavaScript
 console.log("Hello".length);
 
 console.log("hello".charAt(2));
@@ -39,7 +39,7 @@ console.log("hello".charAt(2));
 console.log("hello, world".replace("hello", "goodbye"));
 
 console.log("hello, world".toUpperCase);
-···
+```
 
 * &&, ||
 * var, let, const
@@ -98,7 +98,7 @@ console.log(a);
 
 闭包
 --------
-···JavaScript
+```JavaScript
 function makeAdder(a, b){
     return function(b){
         return a + b;
